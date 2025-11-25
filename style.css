@@ -1,0 +1,32 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: #00698f;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: block;           /* good practice for images */
+}
+
+ul {
+    padding-left: 40px;       /* removes the zero-width problem */
+    margin: 20px 0;
+}
+
+li {
+    padding: 8px 10px;
+    border-bottom: 1px solid #b11313;
+    transition: background-color 0.3s ease;   /* smooth effect */
+}
+
+li:hover {
+    background-color: #211fb8;
+}

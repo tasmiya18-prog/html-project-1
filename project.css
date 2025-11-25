@@ -1,0 +1,31 @@
+body {
+    background-color:aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: brown;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+ul {
+    padding-left: 40px;
+    margin: 20px 0;
+}
+
+li {
+    padding: 8px 10px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color:beige;
+}
